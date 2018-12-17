@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>VSCode extension 作ってみた</title>
+  <meta charset="utf-8">
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    @import url(https://fonts.googleapis.com/css?family=Rajdhani:600);
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+    @import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c);
+    @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+    body {
+      font-family: 'Montserrat';
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Yanone Kaffeesatz', 'M PLUS Rounded 1c';
+      font-weight: normal;
+    }
+
+    .remark-code,
+    .remark-inline-code {
+      font-family: 'Source Code Pro', monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'slides/vscode-extension-eof-mark.md',
+      ratio: '16:9',
+      highlightLanguage: 'TypeScript',
+      highlightStyle: 'tomorrow-night-blue'
+    });
+  </script>
+</body>
+
+</html>
